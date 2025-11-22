@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch DocumentationGeneratorConsole (exe)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/DocumentationGeneratorConsole/bin/Debug/net40/DocumentationGeneratorConsole.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/DocumentationGeneratorConsole",
+      "console": "internalConsole"
+    }
+  ]
+}

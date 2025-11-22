@@ -1,0 +1,36 @@
+﻿To Do List
+
+
+* Support finding objects with out a description and scripting the SQL commands to add descriptions.
+	* mostly done in 1.0.0.0 still need to do parameters on udfs and sprocs
+
+* In HTML documentation link data types to descriptions on MSDN or Technet
+
+* In HTML add internal links to navigate between objects
+
+* DONE Implement Sortable Binding List on grid in FrmObjectsWithoutDescription.
+	see: http://msdn.microsoft.com/en-us/library/ms993236.aspx 
+
+* Add support for finding objects with names that include special characters
+
+* Make adding design issue warnings to UI optional
+
+* Add support for showing contraints on columns
+
+* DONE: Support user defined functions: scalar and table
+
+* DONE: Support views
+
+* DONE: Support indexes - done on tables.  - done on views.
+
+* DONE: Support foreign keys on tables
+
+* DONE: Re-factor ColumnInspector query to remove duplicate column records with different descriptions.  One description is probably related to the index, not the table column
+
+* DONE: In DatabaseHtmlDocumentGenerator replace Write() with WriteEncodedText() to escape reserved entities.
+
+* DONE: In WinForm UI: Increase width of connection string textbox control 
+
+* DONE: In WinForm UI: Add connection string wizard
+
+
